@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
     <style>
-        #link {
+        #googlesearchlink {
             position:absolute;
             top:0px; 
             right:0px
         }
-        #link:hover {
+        #googlesearchlink:hover {
             color: blue
         }
     </style>
-    <body> this is the img search </body>
-    <a id="link" href=googlesearch.html> google search </a>
-</html>
+    <body> 
+        <form action="https://images.google.com/images">
+            <input type="text" name="q">
+            <input type="submit" value="Google image search">
+        </form>
+    </body>
+    <a id="googlesearchlink" href=googlesearch.html> google search </a>
+</html>             
